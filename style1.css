@@ -1,0 +1,86 @@
+body, html{
+    height : 100%;
+}
+
+body{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+}
+
+.form-container
+{
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid #000;
+    display: flex;
+    width : 320px;
+    height : 70vh;
+    border-radius: 40px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 6px 6px 9px;
+    background-color: yellow;
+}
+
+.username-form
+{
+    display: grid;
+    margin: 10px;
+    margin-bottom: 75px;
+}
+
+.password-form
+{
+    display: grid;
+    margin: 10px;
+    margin-bottom: 90px;
+}
+
+.button-form
+{
+   width: 100%;
+}
+
+#username
+{
+   border-radius: 40px;
+   padding: 10px;
+   margin: 10px;
+   border: none;
+   box-shadow: 0 2px 5px;
+}
+
+#password
+{
+    border-radius: 40px;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    box-shadow: 0 2px 5px;
+}
+
+#submit-button
+{
+    width:100%;
+    background-color: rgb(6, 70, 6);
+    border-radius: 40px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.error-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    color: #ffffff;
+    border-radius: 40px;
+}
+
+#error-msg
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

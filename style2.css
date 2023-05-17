@@ -1,0 +1,35 @@
+html,body
+{
+    display: block;
+    width: 100%;
+}
+
+.content-container
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: brown;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:  2px solid #000;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0 0 12px;
+}
+
+table
+{
+    border-collapse: collapse;
+    width: 70%;
+    margin: 20%;
+}
+th{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #fff000;
+}
+th, td{
+    padding: 8px;
+    text-align: left;
+    border: 2px solid green;
+}
