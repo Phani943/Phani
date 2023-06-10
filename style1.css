@@ -26,7 +26,7 @@ body{
 
 @media only screen and (max-width: 393px) {
   .form-container {
-    width: 96%;
+    width: 94%;
     height: 60vh;
     border-radius: 20px;
   }
