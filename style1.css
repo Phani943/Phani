@@ -26,12 +26,19 @@ body{
 
 @media only screen and (max-width: 393px) {
   .form-container {
-    width: 90%;
+    width: 93%;
     height: 60vh;
     border-radius: 20px;
   }
 }
 
+@media only screen and (orientation: landscape) and (max-width: 393px) {
+  .form-container {
+    width: 50%;
+    height: 80vh;
+    border-radius: 20px;
+  }
+}
 
 
 .username-form
