@@ -24,6 +24,15 @@ body{
     background-color: yellow;
 }
 
+@media only screen and (max-width: 600px) {
+  .form-container {
+    width: 90%;
+    height: 60vh;
+    border-radius: 20px;
+  }
+}
+
+
 .username-form
 {
     display: grid;
