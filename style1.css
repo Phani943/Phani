@@ -20,7 +20,7 @@ html {
     flex-direction: column;
     width: 90%;
     border-radius: 40px;
-    max-width: 100%;
+    max-width: 320px;
     justify-content: center;
     align-items: center;
     box-shadow: 6px 6px 9px;
