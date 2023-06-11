@@ -1,5 +1,5 @@
 html, body {
-  height: auto;
+  height: 100%;
   margin: 0;
   padding: 0;
 }
@@ -54,7 +54,7 @@ body {
   width: 320px;
   max-width: 720px;
   text-align: center;
-  margin-left: 40px;
+  margin-left: 45px;
 }
   
 
