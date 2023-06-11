@@ -37,7 +37,7 @@ body {
   box-shadow: 6px 6px 9px;
   background-color: yellow;
   padding: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .error-container {
@@ -46,10 +46,22 @@ body {
   color: #ffffff;
   padding: 20px;
   border-radius: 40px;
-  width: 440px;
-  max-width: 380px;
+  width: 700px;
+  max-width: 720px;
 }
   
+
+#user-id
+{
+  font-size: x-large;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#password-id
+{
+  font-size: x-large;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
   .username-form {
     display: grid;
     margin: 10px;
@@ -66,8 +78,10 @@ body {
   }
   
   .button-form {
+    display: flex;
+    justify-content: center;
     width: 100%;
-    margin-left: 12px;
+    align-items: flex-end;
   }
   
   #username {
@@ -75,7 +89,7 @@ body {
     padding: 20px;
     font-style: italic;
     font-size: larger;
-    width: 320px;
+    width: 500px;
     margin: 10px;
     border: none;
     box-shadow: 0 2px 5px;
@@ -86,7 +100,7 @@ body {
     padding: 20px;
     margin: 10px;
     border: none;
-    width: 320px;
+    width: 500px;
     box-shadow: 0 2px 5px;
   }
   
