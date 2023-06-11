@@ -29,8 +29,8 @@ body {
   display: flex;
   flex-direction: column;
   width: 440px;
-  max-width: 380px;
-  height: 60vh;
+  max-width: 420px;
+  height: 50vh;
   border-radius: 40px;
   justify-content: center;
   align-items: center;
