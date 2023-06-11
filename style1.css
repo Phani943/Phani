@@ -16,6 +16,8 @@ body {
   dispaly: flex;
   flex-direction: column;
   align-items: center;
+  width: 90%;
+  max-width: 400px;
 }
 
 .form-container {
@@ -24,7 +26,6 @@ body {
   display: flex;
   flex-direction: column;
   width: 320px;
-  max-width: 90%;
   border-radius: 40px;
   justify-content: center;
   align-items: center;
