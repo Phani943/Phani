@@ -34,8 +34,8 @@ body {
   width: 320px;
   max-width: 720px;
   height: 75vh;
-  margin-left: 30px;
-  margin-top: 50px;
+  margin-left: 40px;
+  margin-top: 60px;
   border-radius: 40px;
   justify-content: center;
   align-items: center;
@@ -54,6 +54,7 @@ body {
   width: 320px;
   max-width: 720px;
   text-align: center;
+  margin-left: 40px;
 }
   
 
