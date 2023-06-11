@@ -1,11 +1,16 @@
+html{
+    height: 100%;
+    width: 100%;
+}
 
 body{
-    height : fit-content;
-    display: grid;
+    display: flex;
+    padding: 100px;
+    flex-direction: column;
+    background-color: pink;
     justify-content: center;
     align-items: center;
-    background-color: pink;
-    align-items: space-around;
+    align-content: center;
 }
 
 .form-container
@@ -13,8 +18,8 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     border: 2px solid #000;
     display: flex;
+    flex-direction: column;
     width : 320px;
-    height : fit-content;
     border-radius: 40px;
     justify-content: center;
     align-items: center;
@@ -26,6 +31,7 @@ body{
 {
     display: grid;
     margin: 10px;
+    margin-top: 30px;
     margin-bottom: 65px;
 }
 
@@ -38,7 +44,7 @@ body{
 
 .button-form
 {
-   width: 90%;
+   width: 100%;
 }
 
 #username
@@ -61,7 +67,7 @@ body{
 
 #submit-button
 {
-    width:90%;
+    width:100%;
     background-color: rgb(6, 70, 6);
     border-radius: 40px;
     margin-bottom: 20px;
@@ -71,12 +77,15 @@ body{
 
 .error-container
 {
-    display: flex;
+    display: grid;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #000;
     color: #ffffff;
+    width: 320px;
     border-radius: 40px;
+    margin: 20px;
 }
 
 #error-msg
