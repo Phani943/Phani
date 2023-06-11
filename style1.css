@@ -13,7 +13,7 @@ body {
 }
 
 .container {
-  dispaly: flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
   width: 90%;
@@ -41,6 +41,7 @@ body {
   color: #ffffff;
   padding: 20px;
   border-radius: 40px;
+  width: 320px;
 }
   
   .username-form {
