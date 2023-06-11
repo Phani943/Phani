@@ -6,14 +6,14 @@ html, body {
 
 body {
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: pink;
 }
 
 .form-container {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  position: relative;
   font-family: Arial, Helvetica, sans-serif;
   border: 2px solid #000;
   display: flex;
@@ -28,6 +28,14 @@ body {
   padding: 20px;
 }
 
+.error-container {
+  margin-top: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: #000;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 40px;
+}
   
   .username-form {
     display: grid;
@@ -70,19 +78,7 @@ body {
     color: #ffffff;
     cursor: pointer;
   }
-  
-  .error-container {
-    display: grid;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #000;
-    color: #ffffff;
-    width: 320px;
-    border-radius: 40px;
-    margin: 20px;
-  }
-  
+   
   #error-msg {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
